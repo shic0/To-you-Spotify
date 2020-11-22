@@ -1,0 +1,241 @@
+* {
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0px;
+    background-color:black;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    height: 170px;
+    position: sticky;
+    top: 0;
+    background-color: rgb(15, 15, 15); 
+}
+
+.headerContainer {
+    display: flex;
+    justify-content: space-evenly;
+    height: 170px;   
+}
+
+.pic {
+    display: flex;
+    justify-content: center;
+    height: 150px; 
+    object-fit: contain;
+}
+
+.profil {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto; 
+    object-fit: cover;
+    margin: 10px;
+}
+
+.headerName {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column; 
+    margin-left: 4px;
+      
+}
+    
+ #green {
+     color: #1DB954;
+ }   
+
+ #greenIcon {
+     color: #1DB954;
+ }
+
+h1 {
+    margin-block-start: 0px;
+}
+
+.line {
+    padding-left : 15%;
+    padding-right: 15%;
+    background-color:#1DB954;
+    height:1px;
+    width:70%;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    flex-wrap: wrap;
+    text-align: center;
+    position: sticky;
+    margin-top: 15px;
+    color: lightslategray;
+}
+
+nav .one {
+    
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    margin: 3px;  
+}
+
+.menu a:link {
+    text-decoration: none;
+    color: white; 
+    background-color: #1DB954;
+
+}
+
+.menu a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    font-style: bold;
+    color:	#1DB954;
+    font-weight: bolder;
+    background: black;
+}
+
+a {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+
+a:hover {
+    color: #1DB954;
+    font-weight: bolder;
+}  
+
+.main {
+    display: flex;
+    position: fixed; 
+    width: 100vw;
+    height: 600px;
+    padding-top: 20px; 
+    object-fit: contain;
+    background-image: url(/bilder/spotify-main.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100px;
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.margin {
+    margin-top: 30px;
+}
+
+.marginTwo {
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.greenHover a:hover {
+    font-style: bold;
+    color: #1DB954;
+}
+
+div.scroll {
+    display: flex;
+    flex-direction: column;
+    margin-top: 16px;
+    background-color: black;
+    height: 150px;
+    width: 100vw; 
+    overflow-y: auto;
+}
+
+#endTags {
+    margin-top: 40px;
+}
+
+.divColumn {
+    display: flex;
+    width: 100vw;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.main .left {
+    float: left;
+}
+.main .right {
+    float: right;
+}
+
+#topThree {
+    padding-left: 30px;
+}
+
+#lista{
+    padding-left: 30px;
+}
+ 
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1DB954;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    height: 92px;    
+}
+
+
+.referenserDiv {
+    display: flex;
+    justify-content: inherit;
+    font-size: 15px;
+    font-weight: 700;
+    width: 200px;
+    border-radius: 25px;
+    border: 2px solid white;
+    padding: 6px;
+    width: auto;
+    height: auto;
+    margin-top: 2px;
+  
+
+}
+ 
+
+@media (max-width:200px) {
+    img{
+        width: 70px;
+        height: 700px;
+    }
+    
+}
