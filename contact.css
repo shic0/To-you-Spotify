@@ -17,6 +17,19 @@ body {
     
 } 
 
+.main {
+    display: flex;
+    position: fixed; 
+    width: 100vw;
+    height: 700px;
+    padding-top: 120px; 
+    object-fit: contain;
+    background-image: url(/bilder/spotify-main.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100px; 
+}
+
 footer {
     display: flex;
     justify-content: center;
