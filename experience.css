@@ -17,7 +17,7 @@ margin-top: 40px;
 .line {
     padding-left : 15%;
     padding-right: 15%;
-    background-color: skyblue;
+    background-color: #1DB954;
     height:1px;
     width:70%;
     text-align: center;
@@ -28,7 +28,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: skyblue;
+    background-color: #1DB954;
     color: white;
     text-align: center;
     position: fixed;
