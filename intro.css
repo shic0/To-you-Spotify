@@ -30,7 +30,7 @@ main {
     width: 100vw;
     height: 600px; 
     object-fit: contain;
-    background-image: url(/bilder/spotify-main.png);
+    background-image: url(./bilder/spotify-main.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: 380px;
