@@ -3,52 +3,32 @@
 }
 
 body {
-    box-sizing: border-box;
-    margin: 0px;
-    background-color:black;
-    color: white;
-}
-
-
-.greenHover a:hover {
-    color: #1DB954;
-}
-
-.main {
-    display: flex;
-    position: fixed; 
-    width: 100vw;
-    height: 600px;
-    padding-top: 20px; 
+    background-color: black;
     object-fit: contain;
-    background-image: url(/bilder/spotify-main.png);
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: 100px;
-}
-
-
-#noMargin {
-    margin-bottom: 0px;
-}
-.center {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    flex-direction: column;
-}
-
-.margin {
+    color: white;
     margin-top: 30px;
+    text-align: center;
 }
 
+#space {
+margin-top: 40px;
+}
 
-    
+.line {
+    padding-left : 15%;
+    padding-right: 15%;
+    background-color: skyblue;
+    height:1px;
+    width:70%;
+    text-align: center;
+}
+
 footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
-    background-color: #1DB954;
+    background-color: skyblue;
     color: white;
     text-align: center;
     position: fixed;
@@ -58,6 +38,14 @@ footer {
     height: 92px;    
 }
 
+
+a:hover {
+    font-style: bold;
+    font-size: large;
+    font-weight: bolder;
+}
+
+
 a {
     color: white;
     text-decoration: none;
@@ -66,9 +54,4 @@ a {
 
 a:visited {
    text-decoration: none;
-}
-a:hover {
-    font-style: bold;
-    font-size: large;
-    font-weight: bolder;
 }
